@@ -1,0 +1,29 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -96 -208 240 64
+TEXT 13 -91 Left 2 R-2R_DAC
+WINDOW 0 70 -103 Bottom 2
+PIN -96 -128 LEFT 8
+PINATTR PinName sel0
+PINATTR SpiceOrder 1
+PIN -96 -96 LEFT 8
+PINATTR PinName sel1
+PINATTR SpiceOrder 2
+PIN -96 -64 LEFT 8
+PINATTR PinName sel2
+PINATTR SpiceOrder 3
+PIN -96 -32 LEFT 8
+PINATTR PinName sel3
+PINATTR SpiceOrder 4
+PIN 80 -208 VRIGHT 8
+PINATTR PinName vdd
+PINATTR SpiceOrder 5
+PIN 240 -80 RIGHT 8
+PINATTR PinName vout
+PINATTR SpiceOrder 6
+PIN 96 64 VLEFT 8
+PINATTR PinName vss
+PINATTR SpiceOrder 7
+PIN 64 64 VLEFT 8
+PINATTR PinName vsub
+PINATTR SpiceOrder 8

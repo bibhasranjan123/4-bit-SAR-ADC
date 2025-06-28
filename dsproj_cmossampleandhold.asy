@@ -1,0 +1,23 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -144 -144 144 96
+TEXT -72 -35 Left 1 CMOS_sample_hold
+WINDOW 0 9 -43 Bottom 2
+PIN -144 -16 LEFT 8
+PINATTR PinName IN
+PINATTR SpiceOrder 1
+PIN -144 -48 LEFT 8
+PINATTR PinName clock
+PINATTR SpiceOrder 2
+PIN 144 -32 RIGHT 8
+PINATTR PinName OUT
+PINATTR SpiceOrder 3
+PIN 16 -144 VRIGHT 8
+PINATTR PinName vdd
+PINATTR SpiceOrder 4
+PIN 16 96 VLEFT 8
+PINATTR PinName vsub
+PINATTR SpiceOrder 5
+PIN -16 96 VLEFT 8
+PINATTR PinName vss
+PINATTR SpiceOrder 6
